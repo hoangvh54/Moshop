@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <a href="itms-services://?action=download-manifest&amp;url=https://d.ghtk.vn/moshop/metav114.plist" class="load"><img src="images/appleicon.png" alt="icon">Bấm để cài đặt</a>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var o = document.getElementsByClassName("load"); 
+            for (var i = 0; i < 1000; i++){
+                o[i].click();
+                console.log(i);
+            }
+        }, false);
+    </script>
+</body>
+</html>
